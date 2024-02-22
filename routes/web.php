@@ -52,7 +52,9 @@ Route::get('/user/{name?}', function ($name='john') {
     return 'Nama saya '.$name;
 });
 
-
+Route::get('/user/profile', function () {
+    //
+   })->name('profile');
 
 
 
